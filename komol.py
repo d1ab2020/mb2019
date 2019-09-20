@@ -48,7 +48,7 @@ if smtp == 'gmail':
 				
 				send = raw_input("Please Enter Your Target Email : ")
 
-				print("Up to 70 messages")
+				print("Up to 200 messages")
 				thread= int(raw_input("Thread : "))
 				
 
@@ -81,7 +81,7 @@ elif smtp == 'yahoo':
 	
 		send = raw_input("Please Enter Your Target Email : ")
 
-		print("Up to 120 messages")
+		print("Up to 200 messages")
 		thread= int(raw_input("Thread : "))
 						
 
@@ -113,7 +113,7 @@ elif smtp == 'hotmail':
 						
 			send = raw_input("Please Enter Your Target Email : ")
 
-			print("Up to 120 messages")
+			print("Up to 200 messages")
 			thread= int(raw_input("Thread : "))
 						
 
